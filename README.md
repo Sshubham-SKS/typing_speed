@@ -2,8 +2,6 @@
 
 A high-performance, premium typing analytics application built with **React**, **Node.js**, and **Google Gemini AI**. Designed for a high-impact, cinematic experience with ultra-wide layout support and AI-driven infinite practice.
 
-<img width="1919" height="917" alt="Screenshot 2026-03-16 193053" src="https://github.com/user-attachments/assets/461d2779-7c6d-4c80-8ad3-719aa699a253" />
-
 <img width="1919" height="1033" alt="Screenshot 2026-03-16 193104" src="https://github.com/user-attachments/assets/b8a757c5-d53c-4741-9d04-ae8c208831d8" />
 
 <img width="1919" height="1032" alt="Screenshot 2026-03-16 174723" src="https://github.com/user-attachments/assets/28f1fa51-9897-4aad-8154-a104e4b60aa8" />
