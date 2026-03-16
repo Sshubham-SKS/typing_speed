@@ -1,4 +1,4 @@
- 
+# ⚡ Typing Speed - Cinematic Pro
 
 A high-performance, premium typing analytics application built with **React**, **Node.js**, and **Google Gemini AI**. Designed for a high-impact, cinematic experience with ultra-wide layout support and AI-driven infinite practice.
 
