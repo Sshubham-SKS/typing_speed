@@ -1,8 +1,20 @@
-# ⚡ Typing Speed - Cinematic Pro
+<img width="1919" height="1032" alt="Screenshot 2026-03-16 174723" src="https://github.com/user-attachments/assets/273d48b5-ec88-439e-abba-8da9b1bffc33" /># ⚡ Typing Speed - Cinematic Pro
 
 A high-performance, premium typing analytics application built with **React**, **Node.js**, and **Google Gemini AI**. Designed for a high-impact, cinematic experience with ultra-wide layout support and AI-driven infinite practice.
 
-![Dashboard Preview](https://github.com/Sshubham-SKS/typing_speed/raw/master/frontend/public/dashboard-preview.png)
+<img width="1919" height="917" alt="Screenshot 2026-03-16 193053" src="https://github.com/user-attachments/assets/461d2779-7c6d-4c80-8ad3-719aa699a253" />
+
+<img width="1919" height="1033" alt="Screenshot 2026-03-16 193104" src="https://github.com/user-attachments/assets/b8a757c5-d53c-4741-9d04-ae8c208831d8" />
+
+<img width="1919" height="1032" alt="Screenshot 2026-03-16 174723" src="https://github.com/user-attachments/assets/28f1fa51-9897-4aad-8154-a104e4b60aa8" />
+
+<img width="1917" height="921" alt="Screenshot 2026-03-16 193031" src="https://github.com/user-attachments/assets/999b3357-7ed2-455d-9f5e-e1c3c3a978d4" />
+
+<img width="1919" height="1030" alt="Screenshot 2026-03-16 193009" src="https://github.com/user-attachments/assets/baa480c5-cf38-4487-b174-c4d552784559" />
+
+<img width="1919" height="908" alt="Screenshot 2026-03-16 193042" src="https://github.com/user-attachments/assets/10cd1fc4-cd3c-480b-b64b-2f7f8ece0597" />
+
+
 
 ## ✨ Unique Features
 
