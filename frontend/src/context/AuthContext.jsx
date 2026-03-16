@@ -1,0 +1,51 @@
+import React, { createContext, useState, useEffect } from 'react';
+import axios from 'axios';
+
+export const AuthContext = createContext();
+
+export const AuthProvider = ({ children }) => {
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const checkLoggedIn = async () => {
+      let token = localStorage.getItem('token');
+      if (token) {
+        try {
+          const res = await axios.get('http://127.0.0.1:5000/api/auth/profile', {
+            headers: { Authorization: `Bearer ${token}` },
+          });
+          setUser(res.data);
+        } catch (err) {
+          console.error(err);
+          localStorage.removeItem('token');
+        }
+      }
+      setLoading(false);
+    };
+    checkLoggedIn();
+  }, []);
+
+  const login = async (email, password) => {
+    const res = await axios.post('http://127.0.0.1:5000/api/auth/login', { email, password });
+    localStorage.setItem('token', res.data.token);
+    setUser(res.data.user);
+  };
+
+  const signup = async (userData) => {
+    const res = await axios.post('http://127.0.0.1:5000/api/auth/signup', userData);
+    localStorage.setItem('token', res.data.token);
+    setUser(res.data.user);
+  };
+
+  const logout = () => {
+    localStorage.removeItem('token');
+    setUser(null);
+  };
+
+  return (
+    <AuthContext.Provider value={{ user, login, signup, logout, loading }}>
+      {!loading && children}
+    </AuthContext.Provider>
+  );
+};

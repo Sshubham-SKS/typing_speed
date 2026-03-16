@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-900 text-slate-100 font-sans tracking-wide;
+  }
+}
+
+.glass-panel {
+  @apply bg-slate-800/80 backdrop-blur-md rounded-2xl border border-slate-700 shadow-xl;
+}
+
+/* Custom Text Animations for Typing */
+.correct-char {
+  @apply text-emerald-400;
+}
+.incorrect-char {
+  @apply text-rose-500 bg-rose-500/20 rounded-sm;
+}
+.current-char {
+  @apply border-l-2 border-indigo-400 animate-pulse bg-slate-700/50 rounded-r-sm;
+}
+.untyped-char {
+  @apply text-slate-500;
+}
